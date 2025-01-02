@@ -121,7 +121,7 @@ begin
     Writeln('Policy saved in: ', OutputFilePath);
     writeln;
 
-    Writeln('Now you can run all program you want from C:\USERS\PUBLIC...');
+    Writeln('Now you can run all evil programs you want from C:\USERS\PUBLIC...');
     RebootSystem;
   except
     on E: Exception do
